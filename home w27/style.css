@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: Arial;
+    background-color: #e9ecf0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 10px rgba(0, 0, 0, 1);
+    text-align: center;
+    width: 300px;
+}
+input[type="email"],input[type="password"]{
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid;
+    border-radius: 5px;
+    font-size: 15px;
+
+}
+.login-btn{
+    background-color: rgb(43, 43, 191);
+    color: white;
+    padding: 10px;
+    width: 100%;
+    font-size: 15px;
+}
+.login-btn:hover{
+    background-color: #145fd1;
+}
+.forgot{
+    display: block;
+    margin: 15px 0;
+    color: #1877f2;
+    text-decoration: none;
+    font-size: 15px;
+}
+.create-btn{
+    background-color: #42b72a;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.create-btn:hover{
+    background-color: #36A420;
+}
